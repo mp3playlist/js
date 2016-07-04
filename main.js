@@ -14,8 +14,8 @@ function loadScript(url, callback) {
     script.onload = callback;
     head.appendChild(script);
 }
-var jquery_func = function() {};
-loadScript("//code.jquery.com/jquery-1.12.0.min.js", jquery_func);
+//var jquery_func = function() {};
+//loadScript("//code.jquery.com/jquery-1.12.0.min.js", jquery_func);
 var mp3playlist_ad_func = function() {};
 loadScript("https://rawgit.com/mp3playlist/js/master/mp3playlist_ad.js", mp3playlist_ad_func);
 var histats_func = function() {};
