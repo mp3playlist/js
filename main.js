@@ -16,9 +16,9 @@ function loadScript(url, callback) {
 }
 var jquery_func = function() {};
 loadScript("//code.jquery.com/jquery-1.12.0.min.js", jquery_func);
-var mp3play_ad_func = function() {};
-loadScript("https://rawgit.com/mp3play/js/master/mp3play_ad.js", mp3play_ad_func);
+var mp3playlist_ad_func = function() {};
+loadScript("https://rawgit.com/mp3playlist/js/master/mp3playlist_ad.js", mp3playlist_ad_func);
 var histats_func = function() {};
-loadScript("https://rawgit.com/mp3play/js/master/histats.js", histats_func);
+loadScript("https://rawgit.com/mp3playlist/js/master/histats.js", histats_func);
 var dmca_func = function() {};
-loadScript("https://rawgit.com/mp3play/js/master/dmca.js", dmca_func);
+loadScript("https://rawgit.com/mp3playlist/js/master/dmca.js", dmca_func);
